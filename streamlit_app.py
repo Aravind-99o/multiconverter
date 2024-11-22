@@ -62,6 +62,11 @@ if unit=="Currency":
         index=0, 
     )
     
+    if convertion == "Select an option":
+            st.write("Please select a valid convertion.")
+    else:
+        
+    
 
 
 
