@@ -26,11 +26,7 @@ else:
             st.write("Please select a valid convertion.")
         else:
             st.write(f"You selected: {convertion}")
-   # conversion = st.selectbox(
-   #  "Select Conversion",
-   #  ("Select an option", "Length Centimeter to Meter", "Length Meter to Centimeter"),
-   #  index=0  # Explicitly set the default index to the first item
-   #  )
-   #  if convertion=="Length Centimeter to Meter":
-   #      cm = st.slider("Select Length in Centimeter ", 0, 1000, 100)
+   
+        if convertion=="Length Centimeter to Meter":
+            cm = st.slider("Select Length in Centimeter ", 0, 1000, 100)
     
