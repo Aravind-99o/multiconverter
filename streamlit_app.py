@@ -38,7 +38,7 @@ else:
 if unit=="Weight":
         convertion = st.selectbox(
         "Select convertion:",
-        options=["Select an option", "mg to kg", "kg to Mg"],
+        options=["Select an option", "mg to kg", "kg to mg"],
         index=0, 
     )
 
