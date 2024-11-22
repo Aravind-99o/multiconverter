@@ -17,5 +17,5 @@ if unit=="Length":
     ("Length Centimeter to Meter","Length Meter to Centimeter"),
     )
     if covertion=="Length Centimeter to Meter":
-        cm = st.select_slider("Select Length in Centimeter (cm)",0,1000,0)
+        cm = st.slider("Select Length in Centimeter (cm)",0,1000,0)
     
