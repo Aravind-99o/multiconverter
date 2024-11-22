@@ -38,21 +38,21 @@ else:
 if unit=="Weight":
         convertion = st.selectbox(
         "Select convertion:",
-        options=["Select an option", "mg to kg", "kg to mg"],
+        options=["Select an option", "g to kg", "kg to g"],
         index=0, 
     )
 
         if convertion == "Select an option":
             st.write("Please select a valid convertion.")
         else:
-            if convertion=="kg to mg":
-                mg = st.slider("Select Weight in mg ", 0, 10000, 0)
-                mgresult=mg/1000
-                st.title(f"{mgresult} Kg")
-            if convertion=="mg to kg":
-                kg = st.slider("Select Weight in kg ",0.0, 10.0, 1.0, step=0.1)
-                kgresult=kg*1000
-                st.title(f"{kgresult} mg")
+            if convertion=="kg to g":
+                g = st.number_input("Insert a Weight in g")
+                gresult=mg/1000
+                st.title(f"{gresult} Kg")
+            if convertion=="g to kg":
+                kg = st.number_input("Insert a Weight in kg")
+                kgresult=g*1000
+                st.title(f"{kgresult} g")
 
 
 
