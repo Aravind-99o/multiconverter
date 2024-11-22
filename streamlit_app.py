@@ -18,7 +18,7 @@ else:
     if unit=="Length":
         convertion = st.selectbox(
         "Select convertion:",
-        options=["Select an option", "Centimeter to Meter", "Meter to Centimetr"],
+        options=["Select an option", "Centimeter to Meter", "Meter to Centimeter"],
         index=0, 
     )
 
@@ -26,9 +26,14 @@ else:
             st.write("Please select a valid convertion.")
         else:
             if convertion=="Centimeter to Meter":
-                cm = st.slider("Select Length in Centimeter ", 0, 1000, 100)
+                cm = st.slider("Select Length in Centimeter ", 0, 1000, 0)
                 cmresult=cm/100
-                st.title(f"{cmresult} meter")
+                st.title(f"{cmresult} M")
+                
+             if convertion=="Meter to Centimeter":
+                mtr = st.slider("Select Length in Centimeter ", 0, 100,1)
+                mtrresult=mtr*100
+                st.title(f"{mtrresult} CM")
                 
     
             
