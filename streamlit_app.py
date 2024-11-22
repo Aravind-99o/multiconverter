@@ -30,7 +30,7 @@ else:
                 cmresult=cm/100
                 st.title(f"{cmresult} M")
             if convertion=="Meter to Centimeter":
-                mtr = st.slider("Select Length in Meter ",0,100,1)
+                mtr = st.slider("Select Length in Meter ",0.0, 10.0, 1.0, step=0.1)
                 mtrresult=mtr*100
                 st.title(f"{mtrresult} CM")
                 
