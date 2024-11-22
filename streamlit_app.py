@@ -65,22 +65,23 @@ if unit=="Currency":
     # if convertion == "Select an option":
     #         st.write("Please select a valid convertion.")
     # else:
-        rate=[999,274.55,274.55,84.42,1]
-        ext=["NA","KWD","EUR","USD","INR"]
+    rate=[999,274.55,274.55,84.42,1]
+    ext=["NA","KWD","EUR","USD","INR"]
 
-        cur1=st.selectbox(
-        "Select Currency:",["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
-        index=0, 
-        )
+    cur1=st.selectbox(
+    "Select Currency:",["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
+    index=0, 
+    )
             
-        cur2=st.selectbox(
-        "Select Currency:",["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
-        index=0, 
-        )
+    cur2=st.selectbox(
+    "Select Currency:",["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
+    index=0, 
+    )
         
-        amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
+    amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
 
         # ind_cur1=currency.index(cur1)
+
         # value1=rate[ind_cur1]
 
         # ind_cur2=currency.index(cur2)
