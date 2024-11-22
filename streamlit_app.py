@@ -6,7 +6,7 @@ st.write('This multi-converter application allows users to easily convert betwee
 
 unit = st.selectbox(
     "select the unit to convert",
-    ("Length", "Weight", "Currency"."Speed"),
+    ("Length", "Weight", "Currency","Speed"),
 )
 
 st.write("You selected:", unit)
