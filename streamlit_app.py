@@ -5,17 +5,21 @@ st.title('Multi Converter')
 st.write('This multi-converter application allows users to easily convert between different units of length, currency, and weight.The modular design makes it easy to extendwith additional conversion functionalities as needed.')
 
 unit = st.selectbox(
-    "select the unit to convert",
-    ("Length", "Weight", "Currency","Speed"),
+    "Choose your location:",
+    options=["Choose Unit to convert","Length","Weight","Currency"],
+    index=0, 
 )
 
-st.write("You selected:", unit)
+if unit == "Choose Unit to convert":
+    st.write("Please select a valid location.")
+else:
+    st.write(f"You selected: {unit}")
 
 if unit=="Length":
     location = st.selectbox(
     "Choose your location:",
     options=["Choose your location", "New York", "Los Angeles", "Chicago", "Houston"],
-    index=0,  # Ensure the placeholder is the default selection
+    index=0, 
 )
 
 # Handle the user's selection
