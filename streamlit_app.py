@@ -12,11 +12,22 @@ unit = st.selectbox(
 st.write("You selected:", unit)
 
 if unit=="Length":
-   conversion = st.selectbox(
-    "Select Conversion",
-    ("Select an option", "Length Centimeter to Meter", "Length Meter to Centimeter"),
-    index=0  # Explicitly set the default index to the first item
-    )
-    if convertion=="Length Centimeter to Meter":
-        cm = st.slider("Select Length in Centimeter ", 0, 1000, 100)
+    location = st.selectbox(
+    "Choose your location:",
+    options=["Choose your location", "New York", "Los Angeles", "Chicago", "Houston"],
+    index=0,  # Ensure the placeholder is the default selection
+)
+
+# Handle the user's selection
+if location == "Choose your location":
+    st.write("Please select a valid location.")
+else:
+    st.write(f"You selected: {location}")
+   # conversion = st.selectbox(
+   #  "Select Conversion",
+   #  ("Select an option", "Length Centimeter to Meter", "Length Meter to Centimeter"),
+   #  index=0  # Explicitly set the default index to the first item
+   #  )
+   #  if convertion=="Length Centimeter to Meter":
+   #      cm = st.slider("Select Length in Centimeter ", 0, 1000, 100)
     
