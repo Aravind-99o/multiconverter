@@ -28,7 +28,7 @@ else:
             if convertion=="Centimeter to Meter":
                 cm = st.slider("Select Length in Centimeter ", 0, 1000, 100)
                 cmresult=cm/100
-                st.title(cmresult'Meter')
+                st.title(cmresult,'Multi Converter')
                 
     
             
