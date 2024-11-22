@@ -77,12 +77,12 @@ if unit=="Currency":
     if convertion == "Select an option":
             st.write("Please select a valid convertion.")
     
-    rate=[999,274.55,274.55,84.42,1]
-    ext=["NA","KWD","EUR","USD","INR"]
+    # rate=[999,274.55,274.55,84.42,1]
+    # ext=["NA","KWD","EUR","USD","INR"]
 
    
         
-    amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
+    # amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
 
         # ind_cur1=currency.index(cur1)
 
