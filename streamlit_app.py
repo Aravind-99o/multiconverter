@@ -45,13 +45,13 @@ if unit=="Weight":
         if convertion == "Select an option":
             st.write("Please select a valid convertion.")
         else:
-            if convertion=="kg to g":
+            if convertion=="g to kg":
                 g = st.number_input("Insert a Weight in g")
                 gresult=g/1000
                 st.title(f"{gresult} Kg")
-            if convertion=="g to kg":
+            if convertion=="kg to g":
                 kg = st.number_input("Insert a Weight in kg")
-                kgresult=g*1000
+                kgresult=kg*1000
                 st.title(f"{kgresult} g")
 
 
