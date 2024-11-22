@@ -56,4 +56,14 @@ if unit=="Weight":
 
 
 
+if unit=="Currency":
+    convertion = st.selectbox(
+        "Select convertion:",
+        options=["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
+        index=0, 
+    )
+    
+
+
+
             
