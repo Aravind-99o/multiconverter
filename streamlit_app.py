@@ -12,11 +12,10 @@ unit = st.selectbox(
 st.write("You selected:", unit)
 
 if unit=="Length":
-    conertion = st.selectbox(
+    convertion = st.selectbox(
     "select Covertion",
     ("Length Centimeter to Meter","Length Meter to Centimeter"),
     )
     if covertion=="Length Centimeter to Meter":
-        age = st.slider("How old are you?", 0, 130, 25)
-        st.write("I'm ", age, "years old")
+        age = st.slider("How old are you?", 0, 1000, 100)
     
