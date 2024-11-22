@@ -25,8 +25,10 @@ else:
         if convertion == "Select an option":
             st.write("Please select a valid convertion.")
         else:
-            st.write(f"You selected: {convertion}")
             if convertion=="Centimeter to Meter":
                 cm = st.slider("Select Length in Centimeter ", 0, 1000, 100)
+                cmresult=cm/100
+                st.title(cmresult,'M')
+                
     
             
