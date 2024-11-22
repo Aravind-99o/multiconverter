@@ -51,7 +51,7 @@ if unit=="Weight":
                 st.title(f"{gresult} Kg")
             if convertion=="g to kg":
                 kg = st.number_input("Insert a Weight in kg")
-                kgresult=kg*1000
+                kgresult=g*1000
                 st.title(f"{kgresult} g")
 
 
