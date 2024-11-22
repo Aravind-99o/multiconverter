@@ -11,22 +11,21 @@ unit = st.selectbox(
 )
 
 if unit == "Choose Unit to convert":
-    st.write("Please select a valid location.")
+    st.write("Please select a valid Unit.")
 else:
     st.write(f"You selected: {unit}")
 
-if unit=="Length":
-    location = st.selectbox(
-    "Choose your location:",
-    options=["Choose your location", "New York", "Los Angeles", "Chicago", "Houston"],
-    index=0, 
-)
+    if unit=="Length":
+        convertion = st.selectbox(
+        "Select convertion:",
+        options=["Select an option", "Centimeter to Meter", "Meter to Centimetr"],
+        index=0, 
+    )
 
-# Handle the user's selection
-if location == "Choose your location":
-    st.write("Please select a valid location.")
-else:
-    st.write(f"You selected: {location}")
+        if convertion == "Select an option":
+            st.write("Please select a valid convertion.")
+        else:
+            st.write(f"You selected: {convertion}")
    # conversion = st.selectbox(
    #  "Select Conversion",
    #  ("Select an option", "Length Centimeter to Meter", "Length Meter to Centimeter"),
