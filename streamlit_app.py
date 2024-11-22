@@ -79,17 +79,17 @@ if unit=="Currency":
         )
         amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
 
-        ind_cur1=currency.index(cur1)
-        value1=rate[ind_cur1]
+        # ind_cur1=currency.index(cur1)
+        # value1=rate[ind_cur1]
 
-        ind_cur2=currency.index(cur2)
-        value2=rate[ind_cur2]
+        # ind_cur2=currency.index(cur2)
+        # value2=rate[ind_cur2]
 
-        indian=amount*value1
-        converted=indian/value2
+        # indian=amount*value1
+        # converted=indian/value2
 
-        extention=ext[ind_cur2]
-        st.title(f"{converted,extention}")
+        # extention=ext[ind_cur2]
+        # st.title(f"{converted,extention}")
         
         
     
