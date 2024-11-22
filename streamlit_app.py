@@ -26,11 +26,11 @@ else:
             st.write("Please select a valid convertion.")
         else:
             if convertion=="Centimeter to Meter":
-                cm = st.slider("Select Length in Centimeter ", 0, 1000, 0)
+                cm =  st.number_input("Insert a Length in cm")
                 cmresult=cm/100
                 st.title(f"{cmresult} M")
             if convertion=="Meter to Centimeter":
-                mtr = st.slider("Select Length in Meter ",0.0, 10.0, 1.0, step=0.1)
+                mtr = st.number_input("Insert a Length in meter")
                 mtrresult=mtr*100
                 st.title(f"{mtrresult} CM")
 
@@ -53,4 +53,7 @@ if unit=="Weight":
                 kg = st.slider("Select Weight in kg ",0.0, 10.0, 1.0, step=0.1)
                 kgresult=kg*1000
                 st.title(f"{kgresult} mg")
+
+
+
             
