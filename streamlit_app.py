@@ -46,7 +46,7 @@ if unit=="Weight":
             st.write("Please select a valid convertion.")
         else:
             if convertion=="kg to mg":
-                mg = st.slider("Select Weight in mg ", 0, 1000, 0)
+                mg = st.slider("Select Weight in mg ", 0, 10000, 0)
                 mgresult=mg/1000
                 st.title(f"{mgresult} Kg")
             if convertion=="mg to kg":
