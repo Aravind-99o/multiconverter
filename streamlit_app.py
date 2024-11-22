@@ -55,7 +55,6 @@ if unit=="Weight":
                 st.title(f"{kgresult} g")
 
 
-
 if unit=="Currency":
     convertion = st.selectbox(
         "Select convertion:",
