@@ -16,6 +16,6 @@ if unit=="Length":
     "select Covertion",
     ("Length Centimeter to Meter","Length Meter to Centimeter"),
     )
-    if covertion=="Length Centimeter to Meter":
+    if convertion=="Length Centimeter to Meter":
         age = st.slider("How old are you?", 0, 1000, 100)
     
