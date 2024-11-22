@@ -47,10 +47,10 @@ if unit=="Weight":
         else:
             if convertion=="kg to mg":
                 mg = st.slider("Select Weight in mg ", 0, 1000, 0)
-                mgresult=cm/1000
+                mgresult=mg/1000
                 st.title(f"{cmresult} Kg")
             if convertion=="mg to kg":
                 kg = st.slider("Select Weight in kg ",0.0, 10.0, 1.0, step=0.1)
-                kgresult=mtr*1000
+                kgresult=kg*1000
                 st.title(f"{mtrresult} mg")
             
