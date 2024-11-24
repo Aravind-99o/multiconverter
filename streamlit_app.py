@@ -91,24 +91,10 @@ if unit=="Currency":
         value2=rate[ind_cur2]
 
         indian=amount*value1
-        converted=indian/value2
+        number=indian/value2
+        converted=round(number,2)
 
 
         extention=ext[ind_cur2]
         st.title(f"{converted} {extention}")
 
-        
-    
- 
-        
- 
-        
-
-
-        
-        
-    
-
-
-
-            
