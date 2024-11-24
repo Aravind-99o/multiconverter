@@ -56,6 +56,7 @@ if unit=="Weight":
 
 
 if unit=="Currency":
+    curr=["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"]
     cur1 = st.selectbox(
         "Select convertion:",
         options=["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
@@ -64,7 +65,7 @@ if unit=="Currency":
     if cur1 == "Select an option":
         st.write("Please select a valid convertion.")
     else:
-        ind_cur1=currency.index(cur1)
+        ind_cur1=curr.index(cur1)
         value1=rate[ind_cur1]
         
 
@@ -78,7 +79,7 @@ if unit=="Currency":
     if cur2 == "Select an option":
         st.write("Please select a valid convertion.")
     else:
-        ind_cur2=currency.index(cur2)
+        ind_cur2=curr.index(cur2)
         value2=rate[ind_cur2]
     
 
