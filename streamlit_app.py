@@ -90,16 +90,21 @@ if unit=="Currency":
         ind_cur2=curr2.index(cur2)
         value2=rate[ind_cur2]
 
+        indian=amount*value1
+        converted=indian/value2
+
+
+        extention=ext[ind_cur2]
+        st.title(f"{converted,extention}")
+
         
     
  
         
  
-        # indian=amount*value1
-        # converted=indian/value2
+        
 
-        # extention=ext[ind_cur2]
-        # st.title(f"{converted,extention}")
+
         
         
     
