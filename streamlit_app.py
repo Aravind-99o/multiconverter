@@ -62,7 +62,7 @@ if unit=="Currency":
         index=0, 
     )
     if convertion == "Select an option":
-            st.write("Please select a valid convertion.")
+        st.write("Please select a valid convertion.")
     else:
         ind_cur1=currency.index(cur1)
         value1=rate[ind_cur1]
@@ -76,7 +76,7 @@ if unit=="Currency":
         )
 
             if convertion == "Select an option":
-                    st.write("Please select a valid convertion.")
+                st.write("Please select a valid convertion.")
             else:
                 ind_cur2=currency.index(cur2)
                 value2=rate[ind_cur2]
