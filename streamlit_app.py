@@ -69,17 +69,17 @@ if unit=="Currency":
         
 
     
-        cur2 = st.selectbox(
+    cur2 = st.selectbox(
             "Select convertion:",
             options=["Select an option","Kuwaiti Dinar KWD", "Euro EUR","United States Dollar USD","Indian Rupee INR"],
             index=0, 
         )
 
-            if cur2 == "Select an option":
-                st.write("Please select a valid convertion.")
-            else:
-                ind_cur2=currency.index(cur2)
-                value2=rate[ind_cur2]
+    if cur2 == "Select an option":
+        st.write("Please select a valid convertion.")
+    else:
+        ind_cur2=currency.index(cur2)
+        value2=rate[ind_cur2]
     
 
             
