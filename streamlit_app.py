@@ -87,17 +87,12 @@ if unit=="Currency":
     else:
         ind_cur2=curr2.index(cur2)
         value2=rate[ind_cur2]
+
+        amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
     
  
         
-    # amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
-
-        # 
-
-        # 
-
-        # 
-
+ 
         # indian=amount*value1
         # converted=indian/value2
 
