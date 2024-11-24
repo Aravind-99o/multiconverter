@@ -58,7 +58,7 @@ if unit=="Weight":
 if unit=="Currency":
     curr=["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"]
     curr2=["Select an option","Kuwaiti Dinar", "Euro ","United States Dollar ","Indian Rupee "]
-    rate=[999,274.55,274.55,84.42,1]
+    rate=[999,274.28,87.97,84.44,1]
     ext=["NA","KWD","EUR","USD","INR"]
 
 
