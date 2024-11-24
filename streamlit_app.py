@@ -66,6 +66,9 @@ if unit=="Currency":
         options=["Select an option","Kuwaiti Dinar KWD", "Euro EUR","United States Dollar USD","Indian Rupee INR"],
         index=0, 
     )
+
+    if convertion == "Select an option":
+            st.write("Please select a valid convertion.")
     
 
             
@@ -74,8 +77,7 @@ if unit=="Currency":
     # index=0, 
     # )
     
-    if convertion == "Select an option":
-            st.write("Please select a valid convertion.")
+    
     
     # rate=[999,274.55,274.55,84.42,1]
     # ext=["NA","KWD","EUR","USD","INR"]
