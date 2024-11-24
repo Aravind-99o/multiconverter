@@ -74,7 +74,8 @@ if unit=="Currency":
         ind_cur1=curr.index(cur1)
         value1=rate[ind_cur1]
 
-        amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
+        amount=st.slider("Select Amount", 0, 10000, 1)
+         # amount=st.slider("Select Amount", 0.0, 10000.0, 1.0, step=0.1)
 
     
     cur2 = st.selectbox(
