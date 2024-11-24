@@ -5,7 +5,7 @@ st.title('Multi Converter')
 st.write('This multi-converter application allows users to easily convert between different units of length, currency, and weight.The modular design makes it easy to extendwith additional conversion functionalities as needed.')
 
 unit = st.selectbox(
-    "Choose your location:",
+    "Choose your option:",
     options=["Choose Unit to convert","Length","Weight","Currency"],
     index=0, 
 )
