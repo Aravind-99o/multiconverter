@@ -95,7 +95,6 @@ if unit=="Currency":
 
 
         extention=ext[ind_cur2]
-        st.title(converted,extention)
         st.title(f"{converted} {extention}")
 
         
