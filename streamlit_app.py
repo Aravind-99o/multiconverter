@@ -61,7 +61,7 @@ if unit=="Currency":
         options=["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
         index=0, 
     )
-    if convertion == "Select an option":
+    if cur1 == "Select an option":
         st.write("Please select a valid convertion.")
     else:
         ind_cur1=currency.index(cur1)
@@ -75,7 +75,7 @@ if unit=="Currency":
             index=0, 
         )
 
-            if convertion == "Select an option":
+            if cur2 == "Select an option":
                 st.write("Please select a valid convertion.")
             else:
                 ind_cur2=currency.index(cur2)
