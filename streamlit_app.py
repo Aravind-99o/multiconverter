@@ -77,7 +77,7 @@ if unit=="Currency":
     
     cur2 = st.selectbox(
             "Select convertion:",
-            options=["Select an option","Kuwaiti Dinar KWD", "Euro EUR","United States Dollar USD","Indian Rupee INR"],
+            options=["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
             index=0, 
         )
 
@@ -87,18 +87,7 @@ if unit=="Currency":
         ind_cur2=curr.index(cur2)
         value2=rate[ind_cur2]
     
-
-            
-    # cur2=st.selectbox(
-    # "Select Currency:",["Select an option","Kuwaiti Dinar (KWD)", "Euro (EUR)","United States Dollar (USD)","Indian Rupee (INR)"],
-    # index=0, 
-    # )
-    
-    
-    
-
-
-   
+ 
         
     # amount=st.slider("Select Amount", 0.0, 100000.0, 1.0, step=0.1)
 
